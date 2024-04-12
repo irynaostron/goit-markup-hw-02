@@ -3,12 +3,17 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 a {
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+}
+
 ul,
 ol {
-  list-style: none;
+  list-style-type: none;
 }
 
 .logo {
@@ -24,6 +29,7 @@ ol {
 .logo-part {
   color: #2e2f42;
 }
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -47,4 +53,7 @@ ol {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+.logo-part-footer {
+  color: #f4f4fd;
 }
