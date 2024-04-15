@@ -41,7 +41,8 @@ ol {
 .nav-link:focus {
   color: #404bbf;
 }
-.address {
+
+.nav-link .address {
   font-style: normal;
 }
 .address-link {
