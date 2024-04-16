@@ -16,6 +16,16 @@ ol {
   list-style-type: none;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -30,15 +40,15 @@ ol {
   color: #2e2f42;
 }
 
-.nav-link {
+.menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link:hover,
-.nav-link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -56,19 +66,21 @@ ol {
   color: #404bbf;
 }
 
-h1 {
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  text-transform: capitalize;
 }
 .hero {
   background-color: #2e2f42;
 }
-.hero-button-text {
-  font-family: "Roboto", sans-serif;
+
+.order-service-btn {
+  font-family: inherit;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -76,31 +88,19 @@ h1 {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  text-transform: capitalize;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404bbf;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-footer {
+.footer-page {
   background-color: #2e2f42;
 }
 
-.page-footer {
+.footer-page-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -110,4 +110,75 @@ footer {
 
 .logo-part-footer {
   color: #f4f4fd;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-list-item {
+  background-color: #ffffff;
+}
+
+.our-team-fullname {
+  text-transform: capitalize;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team-list-text {
+  background-color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.benefits-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
+  background-color: #ffffff;
+}
+.benfits-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: left;
+}
+
+.our-portfolio-list-item {
+  background-color: #ffffff;
+}
+
+.our-portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.our-portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
+  background-color: #ffffff;
 }
