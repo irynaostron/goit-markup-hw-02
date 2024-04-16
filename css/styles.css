@@ -101,7 +101,6 @@ ol {
 }
 
 .footer-page-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -133,7 +132,7 @@ ol {
 .our-team-list-text {
   background-color: #ffffff;
   text-transform: capitalize;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -151,7 +150,6 @@ ol {
   background-color: #ffffff;
 }
 .benfits-list-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -174,7 +172,6 @@ ol {
 }
 
 .our-portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
